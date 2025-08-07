@@ -1,0 +1,35 @@
+:root {
+  --primary-green: #4CAF50;
+  --earth-brown: #8D6748;
+  --soft-cream: #376827;
+  --accent-orange: #FF7043;
+}
+
+.footer.modern-footer {
+  background: var(--earth-brown);
+  color: var(--soft-cream);
+  border-top: 8px solid var(--primary-green);
+  position: relative;
+}
+
+.indian-pattern-top {
+  background: url('/path/to/indian-pattern.svg') repeat-x;
+  height: 16px;
+}
+
+.footer-link a {
+  color: var(--soft-cream);
+  transition: color 0.2s;
+}
+.footer-link a:hover {
+  color: var(--accent-orange);
+}
+
+.social-media i {
+  color: var(--primary-green);
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+.social-media i:hover {
+  color: var(--accent-orange);
+}
